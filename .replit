@@ -1,4 +1,4 @@
-entrypoint = "M07TutorialCatalano/lesson11/app.js"
+entrypoint = "M07TutorialCatalano/NodeAuth/app.js"
 
 hidden = [".config", "package-lock.json"]
 

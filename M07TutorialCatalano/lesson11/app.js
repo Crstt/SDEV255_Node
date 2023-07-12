@@ -7,7 +7,6 @@ const blogRoutes = require('./routes/blogRoutes');
 const app = express();
 
 // connect to mongodb & listen for requests
-//const dbURI = "mongodb://crstt:123Stella@localhost:27017/node-tutorial";
 
 const dbURI = `mongodb+srv://SuperUser:l6e7JrrXzxYEPsjk@cluster0.zqw4cyc.mongodb.net/Blog?retryWrites=true&w=majority`;
 
@@ -18,8 +17,7 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
 // register view engine
 app.set('view engine', 'ejs');
 
-app.set('views', '/home/runner/SDEV255Node/M07TutorialCatalano/lesson11/views');
-//app.set('public', '/home/runner/SDEV255Node/M07TutorialCatalano/lesson11/public');
+app.set('views', '/home/runner/SDEV255Node-1/M07TutorialCatalano/lesson11/views');
 
 // middleware & static files
 //app.use(express.static('/public'));
