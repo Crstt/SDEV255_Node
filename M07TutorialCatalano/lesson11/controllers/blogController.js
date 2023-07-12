@@ -48,9 +48,9 @@ const blog_delete = (req, res) => {
 }
 
 module.exports = {
-  blog_index, 
-  blog_details, 
-  blog_create_get, 
-  blog_create_post, 
+  blog_index,
+  blog_details,
+  blog_create_get,
+  blog_create_post,
   blog_delete
 }
